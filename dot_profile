@@ -8,7 +8,7 @@
 export PATH=$PATH:$HOME/.scripts
 export PATH=$PATH:$HOME/.cargo/bin
 export PATH=$PATH:$HOME/.local/bin
-export EDITOR=/usr/bin/lvim
+export EDITOR=/home/gery/.local/bin/lvim
 export BROWSER=/usr/bin/brave
 export TERMINAL=/bin/alacritty
 export READER="zathura"
