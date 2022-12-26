@@ -53,3 +53,6 @@ alias fb="flybook show"
 
 PS1='[\u@\h \W]\$ '
 eval "$(starship init bash)"
+
+# Add completion for 1password cli
+source <(op completion bash)
