@@ -56,3 +56,4 @@ eval "$(starship init bash)"
 
 # Add completion for 1password cli
 source <(op completion bash)
+source ~/.op/plugins.sh
