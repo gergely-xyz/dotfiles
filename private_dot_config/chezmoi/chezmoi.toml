@@ -3,4 +3,4 @@
   autoPush = true
 
 [data]
-  personal-email = horvath@gergely.xyz
+  personalEmail = "horvath@gergely.xyz"
