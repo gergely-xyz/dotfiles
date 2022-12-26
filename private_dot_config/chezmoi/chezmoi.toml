@@ -1,3 +1,6 @@
 [git]
   autoCommit = true
   autoPush = true
+
+[data]
+  personal-email = horvath@gergely.xyz
