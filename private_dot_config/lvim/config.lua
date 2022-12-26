@@ -174,7 +174,7 @@ lvim.builtin.treesitter.highlight.enable = true
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 vim.api.nvim_create_autocmd("BufWritePost", {
   pattern = "~/.local/share/chezmoi/*",
-  command = "!chezmoi apply"
+  command = "command!chezmoi apply"
 })
 -- vim.api.nvim_create_autocmd("BufEnter", {
 --   pattern = { "*.json", "*.jsonc" },
