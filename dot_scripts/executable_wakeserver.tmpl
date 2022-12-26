@@ -1,0 +1,5 @@
+#!/bin/sh
+SMAC={{ onepasswordRead "op://Private/Homelab/MAC" }}
+SURL={{ onepasswordRead "op://Private/Homelab/URL" }}
+wol --host $SURL $SMAC > /dev/null && notify-send "Wake command sent to server";
+
