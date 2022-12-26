@@ -1,0 +1,48 @@
+# Import additional configuration files
+#
+# Imports are loaded in order, skipping all missing files, with the importing
+# file being loaded last. If a field is already present in a previous import, it
+# will be replaced.
+#
+# All imports must either be absolute paths starting with `/`, or paths relative
+# to the user's home directory starting with `~/`.
+import:
+  - ~/.config/alacritty/base16.yml
+
+# Any items in the `env` entry below will be added as
+# environment variables. Some entries may override variables
+# set by alacritty itself.
+env:
+  # TERM variable
+  #
+  # This value is used to set the `$TERM` environment variable for
+  # each instance of Alacritty. If it is not present, alacritty will
+  # check the local terminfo database and use `alacritty` if it is
+  # available, otherwise `xterm-256color` is used.
+  TERM: alacritty
+
+font:
+  size: 10.0
+  # The normal (roman) font face to use.
+  normal:
+    family: Fira Code Medium
+    style: Regular
+
+  # The bold font face
+  bold:
+    family: Fira Code
+    style: Bold
+
+  # The italic font face
+  italic:
+    family: Fira Code
+    style: Italic
+
+window:
+
+  # Background opacity
+  opacity: 0.9
+  # Allow terminal applications to change Alacritty's window title.
+  dynamic_title: true
+
+
