@@ -1,0 +1,40 @@
+shell = "bash -c '{}'"
+
+[[item]]
+file = "~/.config/nvim/colors/base16.vim"
+template = "vim"
+rewrite = true
+
+[[item]]
+file = "~/.config/alacritty/base16.yml"
+template = "alacritty"
+subtemplate = "default-256"
+rewrite = true
+
+[[item]]
+file = "~/.themes/FlatColor/colors3"
+template = "gtk-flatcolor"
+subtemplate = "gtk-3"
+rewrite = true
+hook = "gsettings set org.gnome.desktop.interface gtk-theme dummy && gsettings set org.gnome.desktop.interface gtk-theme FlatColor"
+
+[[item]]
+file = "~/.themes/FlatColor/colors2"
+template = "gtk-flatcolor"
+subtemplate = "gtk-2"
+rewrite = true
+
+[[item]]
+file= "~/.config/zathura/zathurarc"
+template = "zathura"
+
+[[item]]
+file = "~/.config/spicetify/Themes/base16/color.ini"
+template = "spotify"
+rewrite = true
+hook = "spicetify apply -n"
+
+[[item]]
+file = "~/.config/awesome/base16.lua"
+template = "awesomewm"
+rewrite = true
